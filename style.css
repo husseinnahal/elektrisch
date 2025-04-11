@@ -1,0 +1,312 @@
+  body{
+    background-color: #eef6fa;
+    color: #0f172a !important;
+  }
+  .logo{
+      width: 250px;
+  }
+  .navbarr{
+      background: #eef6fa;
+      padding: 0 !important;
+  }
+  .nav-link{
+    color:#0f172a !important;
+  }
+  .footer{
+      display: flex;
+      justify-content: flex-start;
+      gap: 30px;
+      align-items: center;
+      flex-wrap: wrap;
+      background:#0f172a ;
+  }
+  .footerLogo{
+    background-color: #e1f5ff;
+    border-radius: 10px;
+    width: 210px;
+  }
+
+  .email{
+      font-size: 12px;
+  }
+
+
+  .hero {
+    min-height: 420px;
+    max-height: 800px;
+    height: 84vh;
+    width: 100%;
+    position: relative;
+    background-image: url(images/home.jpg);
+    background-position: 120%;
+    background-size: 55% 100%;
+    background-repeat: no-repeat;
+  }
+  .info {
+    width: 80%;
+    height: 100%;
+    padding: 50px;
+    color: white;
+    background: linear-gradient(to right, #0f172a 70%, transparent);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .homeinfo{
+    width: 70%;
+  }
+  .homeinfo h1{
+    font-size: 35px;
+  }
+  .checkservices{
+      background: #FFD500;
+      padding: 11px;
+      border-radius: 14px;
+      color: #0f172a;
+      text-decoration: none;
+      font-size: 12px;
+  }
+
+
+
+  .whyus{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px 45px;
+    background-color: #FFD500;
+    padding: 15px;
+    
+  }
+
+  .why{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 5px;
+    max-width: 185px;
+    font-size: 14px;
+  }
+  
+
+  .aboutUs{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap-reverse;
+    gap: 40px;
+    padding: 20px;
+    background-color: #e1f5ff;
+
+  }
+  .aboutImg{
+    width: 300px;
+    height: 380px;
+  }
+  .about{
+    width: 425px;
+  }
+  .about p{
+    font-size: 17px;
+  }
+  .containerServices{
+    background-color: #e1f5ff;
+  }
+  .services{
+    width: 90%;
+    margin: 0 auto;
+    padding: 80px 0;
+  }
+  .ourservices{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 35px;
+  }
+  .service{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFD500;
+    width: 23%;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    min-width: 215px;
+  }
+
+
+
+.feedback{
+  background-color: #0f172a;
+  padding: 50px;
+}
+.swiper-container {
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+    overflow:hidden ;
+    height: 320px;
+}
+
+.swiper-slide {
+    background-color: #e1f5ff;
+    color: #0f172a;
+    font-size: 17px;
+    padding: 20px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    border-radius: 20px;
+}
+.names img{
+  width: 140px;
+  position: relative;
+  left: -10px;
+  margin-bottom: 15px;
+}
+.names h3{
+  margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1000px) {
+ .homeinfo h1{
+  font-size: 26px;
+ }
+ .homeinfo p{
+  font-size: 13px;
+ }
+ .about{
+  width:350px;
+  }
+  .about p{
+    font-size: 15px;
+  }
+  .aboutImg{
+    width: 270px;
+    height: 340px;
+  }
+  .swiper-container {
+    width: 95%;
+
+  }
+}
+
+@media (max-width: 750px) {
+  .homeinfo h1{
+   font-size: 23px;
+  }
+  .homeinfo p{
+   font-size: 12px;
+  }
+  .info{
+    width: 86%;
+  }
+  .hero {
+    background-size: 50% 100%;
+
+  }
+  .feedback{
+    padding: 45px 30px;
+  }
+  .swiper-container {
+    width: 100%;
+  }
+ }
+ @media (max-width: 600px) {
+  .homeinfo h1{
+   font-size: 26px;
+  }
+  .homeinfo p{
+   font-size: 14px;
+  }
+  .info{
+    width: 100%;
+    background: linear-gradient(to right, #0f172a9e 70%, transparent);
+  }
+  .hero {
+    background-size: 100% 100%;
+    background-position: center;
+  }
+  .homeinfo{
+    width: 95%;
+  }
+  .ourservices{
+    gap: 15px;
+  }
+  .service{
+    padding: 10px;
+    min-width: 170px;
+    font-size: 13px;
+  }
+  .feedback{
+    padding: 45px 20px;
+  }
+  .names h3{
+   font-size: 22px;
+  }
+  .names img{
+    width: 110px;
+    left: -7px;
+    margin-bottom: 10px;
+  }
+  .swiper-slide p{
+    font-size: 15px;
+  }
+ }
+@media (max-width: 450px) {
+    .logo{
+        width: 210px;
+    }
+    .homeinfo h1{
+      font-size: 23px;
+     }
+     .homeinfo p{
+      font-size: 12px;
+     }
+     .info{
+      padding: 0 30px 0 15px;
+     }
+     .homeinfo{
+      width: 100%;
+     }
+     .checkservices{
+      padding: 7px 10px;
+      font-size: 14px;
+    }
+    .about p{
+      font-size: 14px;
+    }
+
+
+    .services{
+      width: 95%;
+    }
+    .ourservices{
+      gap: 10px;
+    }
+    .service{
+      padding: 10px;
+      min-width: 150px;
+      font-size: 13px;
+      flex-grow: 1;
+    }
+  }
